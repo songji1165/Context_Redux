@@ -26,7 +26,7 @@ export default function ReduxSample() {
   );
 }
 
-const Modal = ({ msg }) => {
+const Modal = () => {
   const show = useSelector((state) => state);
   console.log("3. Modal render");
   return show && <div>모달 열었지롱</div>;
